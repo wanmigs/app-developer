@@ -129,6 +129,13 @@ body {
     background-clip: text;
 }
 
+.logo-img {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
 .nav-links {
     display: flex;
     list-style: none;
@@ -476,6 +483,14 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 2rem;
+}
+
+.app-icon-img {
+    width: 72px;
+    height: 72px;
+    border-radius: var(--radius-md);
+    object-fit: cover;
+    box-shadow: var(--shadow-md);
 }
 
 .app-info h3 {
