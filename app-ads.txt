@@ -1,0 +1,12 @@
+# app-ads.txt file for Juan Miguel Torres
+#
+# This file declares authorized digital sellers for advertising
+# inventory in mobile applications published by this developer.
+#
+# Apps covered:
+# - SDA Hymnal: PH Edition (iOS App ID: 6757284397)
+#
+# Last updated: January 2026
+
+google.com, pub-3626735267177825, DIRECT, f08c47fec0942fa0
+
