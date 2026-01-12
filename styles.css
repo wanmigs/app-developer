@@ -201,7 +201,6 @@ html {
   margin: 0 auto;
   gap: 60px;
   position: relative;
-  overflow: hidden;
 }
 
 .hero::before {
