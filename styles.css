@@ -81,6 +81,10 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 /* Grain Overlay */
 .grain-overlay {
   position: fixed;
@@ -197,6 +201,7 @@ body {
   margin: 0 auto;
   gap: 60px;
   position: relative;
+  overflow: hidden;
 }
 
 .hero::before {
@@ -876,6 +881,10 @@ body {
     display: none;
   }
 
+  .logo-text {
+    display: none;
+  }
+
   .hero {
     padding-top: 100px;
     text-align: center;
@@ -899,6 +908,15 @@ body {
   }
 
   .app-links {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .store-badge {
+    width: 100%;
+    max-width: 200px;
     justify-content: center;
   }
 
